@@ -1,0 +1,35 @@
+#box1{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    font-size: 20px;
+}
+/* example of %(percentage) & em */
+#box2{
+    width: 33%;
+    height: 50px;
+    background-color: orange;
+    margin-left: 10%;
+    font-size: 2em;
+    /* For font-size: 1em is equal to the font-size of the parent element. */
+    width: 5em;
+    /* For other properties (like padding, margin, width): 1em is equal to the font-size of the current element. */
+
+}
+
+#box3{
+    width: 100px;
+    height: 50px;
+    background-color: blueviolet;
+    margin:10% 0 0 10%;
+    font-size: 2em;
+    width: 5rem;
+
+}
+
+#box4{
+    background-color: yellow;
+    margin-top: 10px;
+    width: 50vw;
+    height: 50vh;
+}

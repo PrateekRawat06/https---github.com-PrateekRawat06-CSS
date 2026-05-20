@@ -1,0 +1,22 @@
+div{
+    width: 100px;
+    height: 100px;
+    padding: 25px;
+    margin: 25px;
+    display: inline-block;
+}
+
+#Box1{
+    background-color: red;
+    
+}
+
+#Box2{
+    background-color: blue;
+    visibility: hidden;
+}
+
+#Box3{
+    background-color: green;
+    display: inline-block;
+}

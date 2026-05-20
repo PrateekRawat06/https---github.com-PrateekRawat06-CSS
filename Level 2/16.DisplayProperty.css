@@ -1,0 +1,48 @@
+h1{
+  display: inline;
+}
+div{
+    background-color: pink;
+    display: inline;
+}
+
+span{
+    display: block;
+}
+
+#Box1{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    padding: 25px;
+    margin: 25px;
+    display: inline-block;
+}
+
+#Box2{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    padding: 25px;
+    margin: 25px;
+    display: inline-block;
+}
+
+#Box3{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    padding: 25px;
+    margin: 25px;
+    display: none;
+}
+
+#Box4{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    padding: 25px;
+    margin: 25px;
+    display: inline-block;
+
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>42.FlexAlign-content.html</title>
+    <style>
+        body{
+    text-align: center;
+}
+
+div{
+    height: 100px;
+    width: 150px;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+#container{
+    height: 600px;
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+}
+
+#box1{
+    background-color: aqua;
+}
+
+#box2{
+    background-color: red;
+    height: 200px;
+}
+
+#box3{
+    background-color: green;
+    height: 75px;
+}
+
+#box4{
+    background-color: yellow;
+}
+
+#box5{
+    background-color: orange;
+}
+</style>
+ </head>
+<body>
+    <h1>Flexbox Playground</h1>
+    <pre>
+        <h2>Flex FlexProperties
+        for Flex Container
+        </h2>
+    </pre>
+    <pre>
+        <h2>Flex FlexProperties
+        for Flex Container
+        </h2>
+    </pre>
+    <div id="container">
+    <div id="box1">box1</div>
+    <div id="box2">box2</div>
+    <div id="box3">box3</div>
+    <div id="box4">box4</div>
+    <div id="box5">box5</div>
+    </div>
+</body>
+</html>
