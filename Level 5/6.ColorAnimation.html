@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>6.ColorAnimation.html</title>
+    <style>
+        div{
+            height: 200px;
+            width: 200px;
+            background-color: aqua;
+            border: 2px solid black;
+            animation-name: coloranimate;
+            animation-duration: 5s;
+            animation-timing-function: ease-in;
+            animation-delay: 1s;
+            animation-iteration-count: 5;
+        }
+
+        @keyframes coloranimate{
+            from{background-color: aqua;}
+            to{background-color: red;}
+        }
+    </style>
+<body>
+    <div>
+        This is Box
+    </div>
+</body>
+</html>
